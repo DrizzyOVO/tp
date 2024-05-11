@@ -3,14 +3,7 @@ import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/
 import { useRecoilValue, useSetRecoilState } from 'recoil';
 import { isNavOpen } from '../store/selectors/nav';
 import { navState } from '../store/atoms/nav';
-
-import {
-    Dropdown,
-    Ripple,
-    initTWE,
-  } from "tw-elements";
-  
-initTWE({ Dropdown, Ripple });
+import Dropdown from './Dropdown';
 
 const Header = () => {
 
@@ -25,7 +18,7 @@ const Header = () => {
     ];
 
     return (
-        <div className='shadow-md w-full fixed top-0 left-0'>
+        <div className='shadow-md w-full fixed top-0 left-0 z-[100]'>
            <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
             {/* logo section */}
             <div className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
@@ -50,7 +43,7 @@ const Header = () => {
                     <a href="#" className="text-gray-800 hover:text-cyan-400 duration-500" aria-current="page">Home</a>
                     </li>
 
-                    <li className='md:ml-8 md:my-0 my-7 font-semibold'>
+                    {/* <li className='md:ml-8 md:my-0 my-7 font-semibold'>
                         <button
                             className="flex justify-center items-center m-auto rounded bg-cyan-400 px-6 pb-2 pt-2.5 text-xs font-bold uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
                             type="button"
@@ -72,7 +65,6 @@ const Header = () => {
                             </svg>
                             </span>
                         </button>
-                        {/* min-w-max */}
                         <ul
                             className="absolute justify-center items-center content-center z-[1000] float-left m-0 hidden w-40 list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-base shadow-lg data-[twe-dropdown-show]:block dark:bg-surface-dark"
                             aria-labelledby="dropdownMenuButton1"
@@ -103,6 +95,10 @@ const Header = () => {
                             </li>
                         </ul>
 
+                    </li> */} 
+
+                    <li className='md:ml-8 md:my-0 my-7 font-semibold text-lg'>
+                        <Dropdown />
                     </li>
 
                     <li className='md:ml-8 md:my-0 my-7 font-semibold text-lg'>
