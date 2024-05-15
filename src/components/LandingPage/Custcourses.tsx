@@ -2,14 +2,14 @@ import React from 'react'
 
 const Custcourses = () => {
 
-    const courses = [1, 1, 1, 1, 1, 1, 1, 1, 1] 
+    const courses = [1, 1, 1] 
 
     return (
 
         <div className='pb-20'>
 
             <div>
-                <h1 className='pt-10 text-2xl font-bold mt-10' style={{ color: "#2d3e50" }}>CUSTOMIZED COURSES FOR  BANKS AND FINANCIAL INSTITUTIONS</h1>
+                <h1 className='pt-10 text-2xl font-bold mt-10' style={{ color: "#2d3e50" }}>Wealth Management</h1>
                 <p className='text-sm mt-5 font-sans'>Following are some of the important courses. Get more information and register for downloading the brochures.</p>
             </div>
 

@@ -1,24 +1,24 @@
 import React from 'react'
 
-const Selfcourses = () => {
+const TreasuryConsultancy = () => {
 
-
-    const courses = [1, 1, 1]
+    const courses = [1, 1, 1] 
 
     return (
 
-        <div>
+        <div className='pb-20'>
 
-            <div className=''>
-                <h1 className='p-10 text-3xl font-bold' style={{ color: "#2d3e50" }}>Mutual Funds</h1>
+            <div>
+                <h1 className='pt-10 text-2xl font-bold mt-10' style={{ color: "#2d3e50" }}>Treasury Consultancy</h1>
+                <p className='text-sm mt-5 font-sans'>Following are some of the important courses. Get more information and register for downloading the brochures.</p>
             </div>
 
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center w-5/6 m-auto'>
 
                 {
-                    courses.map((sourse) => (
+                    courses.map((course) => (
                         <div className=''>
-                            <div className="max-w-sm ml-6 mt-10 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                            <div className="max-w-sm sm:ml-6 md:ml-6 mt-10 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
                                     <img className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
                                 </a>
@@ -47,4 +47,6 @@ const Selfcourses = () => {
 
 }
 
-export default Selfcourses
+export default TreasuryConsultancy
+
+

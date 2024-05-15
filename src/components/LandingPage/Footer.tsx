@@ -8,7 +8,7 @@ const Footer = () => {
 
             <div className='grid grid-rows-3 mt-10 ml-20 justify-start items-start'>
 
-                <img src="https://www.sifl-training.com/wp-content/uploads/2022/10/SIFL.png" width={300} alt="..." />
+                {/* <img src="https://www.sifl-training.com/wp-content/uploads/2022/10/SIFL.png" width={300} alt="..." /> */}
 
                 <p className='-mt-2 text-white text-left'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos quia et saepe labore quidem perferendis minima in placeat sequi maxime porro minus, suscipit quas eos quo mollitia hic quisquam repellendus!</p>
 
@@ -67,7 +67,7 @@ const Footer = () => {
                 <h1 className='text-white font-bold text-lg mt-10'><span className='text-cyan-400'>| &nbsp;&nbsp;R</span>egistered Office </h1>
 
                 <div className='flex justify-start text-left ml-24'>
-                <h1 className='-mt-20 text-white text-md'>14093, BLDG NO. 14 KOHINOOR CITY, PHASE II KIROL ROAD, KURLA WEST LBS MARG, MUMBAI 400070</h1>  
+                <h1 className='-mt-20 text-white text-md'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laboriosam laborum, architecto iusto accusamus odit odio quibusdam obcaecati temporibus assumenda in impedit doloremque</h1>  
                 </div>
 
             </div> 

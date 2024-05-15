@@ -102,11 +102,11 @@ const Header = () => {
                     </li>
 
                     <li className='md:ml-8 md:my-0 my-7 font-semibold text-lg'>
-                    <a href="#" className="text-gray-800 hover:text-cyan-400 duration-500" aria-current="page">Wealth Management</a>
+                    <a href="#" className="text-gray-800 hover:text-cyan-400 duration-500" aria-current="page">Wealth</a>
                     </li>
 
                     <li className='md:ml-8 md:my-0 my-7 font-semibold text-lg'>
-                    <a href="#" className="text-gray-800 hover:text-cyan-400 duration-500" aria-current="page">Treasury consultancy</a>
+                    <a href="#" className="text-gray-800 hover:text-cyan-400 duration-500" aria-current="page">Consultancy</a>
                     </li>
 
                     <li className='md:ml-8 md:my-0 my-7 font-semibold text-lg'>

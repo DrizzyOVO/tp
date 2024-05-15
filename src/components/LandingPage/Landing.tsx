@@ -11,6 +11,7 @@ import { navState } from '../../store/atoms/nav'
 import { useRecoilValue, useSetRecoilState } from 'recoil'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Footer from './Footer'
+import TreasuryConsultancy from './TreauryConsultancy'
 
 const Landing = () => {
 
@@ -39,6 +40,10 @@ const Landing = () => {
 
             <div>
                 <Custcourses />
+            </div>
+
+            <div>
+                <TreasuryConsultancy />
             </div>
             
             <div>
